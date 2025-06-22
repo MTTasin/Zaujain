@@ -7,7 +7,7 @@ import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // Define the base URL for your Django API
-const API_URL = 'http://192.168.0.101:8000'; // Base URL for the server
+const API_URL = 'https://zaujain.pythonanywhere.com'; // Base URL for the server
 
 // --- SVG Icons ---
 const PhoneIcon = () => ( <FaPhone /> );
